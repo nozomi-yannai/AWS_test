@@ -4,6 +4,8 @@ lock "~> 3.18.1"
 set :application, "AWS_test"
 set :repo_url, "https://github.com/nozomi-yannai/AWS_test"
 set :bundle_without, %w{test}.join(':')
+set :rbenv_version, '3.0.1'
+append :linked_files, 'config/secrets.yml'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
