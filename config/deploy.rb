@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.18.1"
 
-set :application, "blog_app"
+set :application, "AWS_test"
 set :repo_url, "https://github.com/nozomi-yannai/AWS_test"
 set :bundle_without, %w{test}.join(':')
 
