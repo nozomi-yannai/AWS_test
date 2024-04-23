@@ -60,5 +60,6 @@ group :development do
   gem 'capistrano-rbenv', require: false  # rbenvを使っている場合
   gem 'capistrano-bundler', require: false
   gem 'capistrano3-puma', require: false # Pumaを使用している場合
+  gem 'capistrano-safe-deploy-to'
   # その他のCapistranoのプラグインや関連gemもここに追加できます
 end
